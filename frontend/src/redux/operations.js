@@ -2,7 +2,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 export const API = axios.create({
-  baseURL: 'http://localhost:3000',
+  baseURL: 'https://parcels-manager.onrender.com',
 });
 
 export const fetchRequests = createAsyncThunk(
