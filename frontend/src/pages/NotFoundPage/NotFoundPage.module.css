@@ -1,0 +1,27 @@
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+.message {
+  margin-top: 100px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  background-color: #ff5622bd;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.link:hover {
+  background-color: #d44318de;
+  transform: scale(1.03);
+}

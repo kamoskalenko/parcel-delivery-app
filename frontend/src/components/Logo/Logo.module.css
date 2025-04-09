@@ -1,0 +1,19 @@
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.boxIcon {
+  animation: bounce 1s infinite;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.boxIcon:hover {
+  transform: scale(1.1);
+}
